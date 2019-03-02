@@ -1,1 +1,2 @@
 # Cracking-SHA-hash-password
+The challenge here is to crack the SHA-1 hashed password. In other words, given the hash, we need to find the plaintext. Here we are provided with the hash. Also, some letters were given as the hint that might occur in the plaintext. Here, I have implemented Brute force as it would entail getting all of the possible combinations and permutations of the potential keys and hashing each of them until I get the expected hash value.
